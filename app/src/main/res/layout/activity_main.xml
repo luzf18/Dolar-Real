@@ -33,7 +33,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:hint="Digite o preço do Dolar"
-        android:inputType="textPersonName|numberDecimal"
+        android:inputType="numberDecimal"
         android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/convert" />
@@ -45,7 +45,7 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:hint="Digite a quantidade em U$"
-        android:inputType="textPersonName|numberDecimal"
+        android:inputType="numberDecimal"
         android:textSize="22sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/precodolar" />
